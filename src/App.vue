@@ -4,6 +4,7 @@ import NavBar from './components/NavBar.vue';
 import { defineAsyncComponent } from 'vue';
 import ServiceSection from './components/ServiceSection.vue';
 import DownloadSvg from './components/icons/downloadSvg.vue';
+import AboutSection from '@/components/AboutSection.vue';
 
 
 
@@ -14,7 +15,7 @@ import DownloadSvg from './components/icons/downloadSvg.vue';
     <NavBar/>
     <HeroSection/>
     <ServiceSection/>
-
+    <AboutSection/>
   </div>
 </template>
 
