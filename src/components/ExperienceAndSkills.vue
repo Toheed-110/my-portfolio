@@ -22,6 +22,15 @@ const Skills =ref([
         width:'85%'
     },
 ])
+
+const Experiences =ref([
+    {
+        id:1,
+        role:'Technical Support Engineer',
+        company:'Sybrid',
+        date:'May 2023 - May 2024'
+    }
+])
 </script>
 
 
@@ -48,6 +57,25 @@ const Skills =ref([
                     <div class="mt-2 h-1 w-full bg-[#131d30] rounded-full">
                         <div class="h-1 rounded-full bg-[#FB7E09]" :style="`width :${skill.width}`"></div>
                     </div>
+                </div>
+            </div>
+            <div data-aos="flip-left">
+                <h2 class="text-4xl font-bold text-white text-left mb-8 md:text-center md:mt-0 mt-8">My Experience</h2>
+                <div class="space-y-8 py-8" data-aos="fade-left">
+                    <div v-for="element in Experiences" :key="element.id"
+                    class="flex items-center rounded-xl p-4 bg-[#111a3e] shadow-lg border border-[#1f1641]"
+                    >
+                    <div class="w-1/4">
+                        <img src="https://img.icons8.com/ios-filled/100/ffffff/lawyer.png" alt="lawyer">
+                    </div>
+                    <div class="w-3/4 pl-4">
+                        <h3 class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#FB7E09] to-[#D3295D]">
+                            {{ element.role }}
+                        </h3>
+                        <p class="text-white">{{ element.company }}</p>
+                        <p class="text-white">{{ element.date }}</p>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
