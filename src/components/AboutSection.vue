@@ -26,9 +26,9 @@ const education =ref([
 
 <template>
     <section class="text-white mt-18" id="about">
-        <div class="absolute z-0 top-[93rem] insert-x-0 h-64 flex items-start">
+        <!-- <div class="absolute z-0 top-[93rem] insert-x-0 h-64 flex items-start">
             <div class="h-24 w-64 bg-gradient-to-br from-[#FB7E09] via-[#D3295D] to-[#570cac] opacity-20"></div>
-        </div>
+        </div> -->
         <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
             <div data-aos="flip-right">
                 <h2 class="text-4xl text-white text-left mb-8"> My Education</h2>
@@ -53,11 +53,11 @@ const education =ref([
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#FB7E09] to-[#D3295D]">About</span>
                      Me
                 </h2>
-                <P class="text-base lg:text-lg mt-8 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quisquam quos rem animi
+                <p class="text-base lg:text-lg mt-8 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quisquam quos rem animi
                      pariatur quidem perferendis enim doloribus earum eligendi impedit culpa est qui assumenda iste ex placeat, natus omnis?
                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quisquam quos rem animi
                      pariatur quidem perferendis enim doloribus earum eligendi impedit culpa est qui assumenda iste ex placeat, natus omnis?
-                </P>
+                </p>
                 <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
                         <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+200</h3>

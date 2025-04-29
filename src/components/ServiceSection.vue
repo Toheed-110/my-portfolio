@@ -48,17 +48,15 @@
     </div>
     <div class="py-8 xl:px-16 px-4 sm:py-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
         <div v-for="service in services" :key="service.id" data-aos="fade-up"
-        class="px=8 py-12 rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]">
-             <div class="mx-auto h-24 text-center xl:h-28 xl:w-28">
-                <div>
-                    <img :src="service.icon" alt="service icon">
-                </div>
-             </div>
-             <div class="text-center">
-                <h3 class="pt-8 text-lg font-semibold uppercase text-transparent bg-clip-text bg- bg-gradient-to-r from-[#FB7E09] to-[#D3295D] lg:text-xl">
+        class="px-8 py-12 rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] flex flex-col items-center">
+            <div class="h-24 xl:h-28 xl:w-28">
+                <img :src="service.icon" alt="service icon">
+            </div>
+             <div>
+                <h3 class="text-center pt-8 text-lg font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#FB7E09] to-[#D3295D] lg:text-xl">
                     {{ service.name }}
                 </h3>
-                <p class="pt-4 text-gray-400 text-sm group-hover:text-white md:text-base">
+                <p class="pt-4 text-center text-gray-400 text-sm group-hover:text-white md:text-base">
                     {{ service.discription }}
                 </p>
              </div>
