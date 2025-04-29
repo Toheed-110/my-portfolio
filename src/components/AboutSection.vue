@@ -10,10 +10,15 @@ const education =ref([
     {
         id:2,
         school:'The Educator School Shakargarh',
-        program:'Inter',
+        program:'Intermediate',
         year:'2019'
     },
-    
+    {
+        id:3,
+        school:'Govt. Higher Secondary School Kot Nainan',
+        program:'Matric',
+        year:'2016'
+    },
 
 ]);
 </script>
@@ -40,6 +45,31 @@ const education =ref([
                             <p class="text-white">{{ element.program }}</p>
                             <p class="text-white">{{ element.year }}</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="flip-right">
+                <h2 class="text-4xl font-bold text-white md:text-center text-left mb-4">More
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#FB7E09] to-[#D3295D]">About</span>
+                     Me
+                </h2>
+                <P class="text-base lg:text-lg mt-8 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quisquam quos rem animi
+                     pariatur quidem perferendis enim doloribus earum eligendi impedit culpa est qui assumenda iste ex placeat, natus omnis?
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quisquam quos rem animi
+                     pariatur quidem perferendis enim doloribus earum eligendi impedit culpa est qui assumenda iste ex placeat, natus omnis?
+                </P>
+                <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
+                    <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+200</h3>
+                        <p class="text-sm sm:text-base text-gray-300">Happy Client</p>
+                    </div>
+                    <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+100</h3>
+                        <p class="text-sm sm:text-base text-gray-300">Projects</p>
+                    </div>
+                    <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+5</h3>
+                        <p class="text-sm sm:text-base text-gray-300">Years Experience</p>
                     </div>
                 </div>
             </div>
