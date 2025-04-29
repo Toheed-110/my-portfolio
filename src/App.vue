@@ -5,6 +5,7 @@ import { defineAsyncComponent } from 'vue';
 import ServiceSection from './components/ServiceSection.vue';
 import DownloadSvg from './components/icons/downloadSvg.vue';
 import AboutSection from '@/components/AboutSection.vue';
+import ExperienceAndSkills from './components/ExperienceAndSkills.vue';
 
 
 
@@ -16,6 +17,7 @@ import AboutSection from '@/components/AboutSection.vue';
     <HeroSection/>
     <ServiceSection/>
     <AboutSection/>
+    <ExperienceAndSkills/>
   </div>
 </template>
 
