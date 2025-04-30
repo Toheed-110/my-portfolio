@@ -6,6 +6,7 @@ import ServiceSection from './components/ServiceSection.vue';
 import DownloadSvg from './components/icons/downloadSvg.vue';
 import AboutSection from '@/components/AboutSection.vue';
 import ExperienceAndSkills from './components/ExperienceAndSkills.vue';
+import LatestProjSection from './components/LatestProjSection.vue';
 
 
 
@@ -18,6 +19,7 @@ import ExperienceAndSkills from './components/ExperienceAndSkills.vue';
     <ServiceSection/>
     <AboutSection/>
     <ExperienceAndSkills/>
+    <LatestProjSection/>
   </div>
 </template>
 

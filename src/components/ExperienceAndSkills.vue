@@ -28,7 +28,13 @@ const Experiences =ref([
         id:1,
         role:'Technical Support Engineer',
         company:'Sybrid',
-        date:'May 2023 - May 2024'
+        date:'May 2024 - August 2024'
+    },
+    {
+        id:2,
+        role:'Front End Engineer',
+        company:'DeDezigners',
+        date:'August 2024 ',
     }
 ])
 </script>
