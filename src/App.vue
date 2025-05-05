@@ -8,6 +8,9 @@ import AboutSection from '@/components/AboutSection.vue';
 import ExperienceAndSkills from './components/ExperienceAndSkills.vue';
 import LatestProjSection from './components/LatestProjSection.vue';
 import ContactSection from './components/ContactSection.vue';
+import TestimonialsSection from './components/TestimonialsSection.vue';
+
+
 
 
 
@@ -22,6 +25,7 @@ import ContactSection from './components/ContactSection.vue';
     <ExperienceAndSkills/>
     <LatestProjSection/>
     <ContactSection/>
+    <TestimonialsSection/>
   </div>
 </template>
 
