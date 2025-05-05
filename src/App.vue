@@ -9,6 +9,9 @@ import ExperienceAndSkills from './components/ExperienceAndSkills.vue';
 import LatestProjSection from './components/LatestProjSection.vue';
 import ContactSection from './components/ContactSection.vue';
 import TestimonialsSection from './components/TestimonialsSection.vue';
+import FooterSection from './components/FooterSection.vue';
+import BackToTop from './components/BackToTop.vue';
+
 
 
 
@@ -26,6 +29,8 @@ import TestimonialsSection from './components/TestimonialsSection.vue';
     <LatestProjSection/>
     <ContactSection/>
     <TestimonialsSection/>
+    <FooterSection/>
+    <BackToTop/>
   </div>
 </template>
 
