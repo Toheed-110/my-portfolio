@@ -7,6 +7,13 @@ import DownloadSvg from './components/icons/downloadSvg.vue';
 import AboutSection from '@/components/AboutSection.vue';
 import ExperienceAndSkills from './components/ExperienceAndSkills.vue';
 import LatestProjSection from './components/LatestProjSection.vue';
+import ContactSection from './components/ContactSection.vue';
+import TestimonialsSection from './components/TestimonialsSection.vue';
+import FooterSection from './components/FooterSection.vue';
+import BackToTop from './components/BackToTop.vue';
+
+
+
 
 
 
@@ -20,6 +27,10 @@ import LatestProjSection from './components/LatestProjSection.vue';
     <AboutSection/>
     <ExperienceAndSkills/>
     <LatestProjSection/>
+    <ContactSection/>
+    <TestimonialsSection/>
+    <FooterSection/>
+    <BackToTop/>
   </div>
 </template>
 
