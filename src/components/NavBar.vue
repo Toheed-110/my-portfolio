@@ -29,10 +29,10 @@
      @click="isMenuOpen =!isMenuOpen"
      >
         <span v-if="isMenuOpen" class="text-5xl">
-            <img src="" alt="close" width="50" height="50">
+            <img src="https://cdn.jsdelivr.net/npm/heroicons@2.0.16/24/solid/x-mark.svg" alt="close" width="50" height="50">
         </span>
         <span v-else class="text-5xl">
-            <img src="" alt="close" width="50" height="50">
+            <img src="https://cdn.jsdelivr.net/npm/heroicons@2.0.16/24/solid/bars-3.svg" alt="close" width="50" height="50">
         </span>
      </button>
     </div>
