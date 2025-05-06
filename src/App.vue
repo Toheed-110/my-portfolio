@@ -12,11 +12,6 @@ import TestimonialsSection from './components/TestimonialsSection.vue';
 import FooterSection from './components/FooterSection.vue';
 import BackToTop from './components/BackToTop.vue';
 
-
-
-
-
-
 </script>
 
 <template>
@@ -33,7 +28,3 @@ import BackToTop from './components/BackToTop.vue';
     <BackToTop/>
   </div>
 </template>
-
-<style scoped>
-
-</style>

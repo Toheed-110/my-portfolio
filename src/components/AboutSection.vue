@@ -78,5 +78,3 @@ const education =ref([
 </template>
 
 
-<style>
-</style>

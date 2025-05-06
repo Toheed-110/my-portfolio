@@ -59,6 +59,3 @@ import DownloadSvg from './icons/downloadSvg.vue';
   </section>
 </template>
 
-<style scoped>
-
-</style>
