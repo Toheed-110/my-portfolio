@@ -7,7 +7,7 @@ const Projects = ref([
   {
     id: 1,
     category: 'Web Development',
-    image: '/src/assets/toheed.png', // Or use `require('@/assets/toheed.png')` if needed
+    image: '/src/assets/project_1.jpg', // Or use `require('@/assets/toheed.png')` if needed
     title: 'Project 1',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quonatus distinctio voluptate ad eum ipsa provident necessitatibus cum assumenda. Saepe, ipsa. Totam,tenetur! Nihil quoderror labore nam doloribus.',
     technologies: ['Vue.js', 'Node.js'],
@@ -17,7 +17,7 @@ const Projects = ref([
   {
     id: 2,
     category: 'Web Development',
-    image: '/src/assets/toheed.png',
+    image: '/src/assets/project_2.jpg',
     title: 'Project 2',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quonatus distinctio voluptate ad eum ipsa provident necessitatibus cum assumenda. Saepe, ipsa. Totam,tenetur! Nihil quoderror labore nam doloribus.',
     technologies: ['Vue.js', 'Node.js'],
@@ -27,7 +27,7 @@ const Projects = ref([
   {
     id: 3,
     category: 'Web Development',
-    image: '/src/assets/toheed.png',
+    image: '/src/assets/project_3.jpg',
     title: 'Project 3',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quonatus distinctio voluptate ad eum ipsa provident necessitatibus cum assumenda. Saepe, ipsa. Totam,tenetur! Nihil quoderror labore nam doloribus.',
     technologies: ['Vue.js', 'Node.js'],
@@ -37,7 +37,7 @@ const Projects = ref([
   {
     id: 4,
     category: 'Web Development',
-    image: '/src/assets/toheed.png',
+    image: '/src/assets/project_4.jpg',
     title: 'Project 4',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quonatus distinctio voluptate ad eum ipsa provident necessitatibus cum assumenda. Saepe, ipsa. Totam,tenetur! Nihil quoderror labore nam doloribus.',
     technologies: ['Vue.js', 'Node.js'],
@@ -47,7 +47,7 @@ const Projects = ref([
   {
     id: 5,
     category: 'Web Development',
-    image: '/src/assets/toheed.png',
+    image: '/src/assets/project_5.jpg',
     title: 'Project 5',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quonatus distinctio voluptate ad eum ipsa provident necessitatibus cum assumenda. Saepe, ipsa. Totam,tenetur! Nihil quoderror labore nam doloribus.',
     technologies: ['Vue.js', 'Node.js'],
@@ -57,7 +57,7 @@ const Projects = ref([
   {
     id: 6,
     category: 'Web Development',
-    image: '/src/assets/toheed.png',
+    image: '/src/assets/project_6.jpg',
     title: 'Project 6',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quonatus distinctio voluptate ad eum ipsa provident necessitatibus cum assumenda. Saepe, ipsa. Totam,tenetur! Nihil quoderror labore nam doloribus.',
     technologies: ['Vue.js', 'Node.js'],
@@ -81,7 +81,7 @@ const filteredProjects = computed(() => {
 </script>
 
 <template>
-  <section class="text-white mt-20">
+  <section class="text-white mt-20" id="projects">
     <div class="px-4 xl:pl-16">
       <div class="mb-4 md:flex md:justify-between xl:pr-26">
         <h2 class="text-4xl font-bold">My Latest Projects</h2>

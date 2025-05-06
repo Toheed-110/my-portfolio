@@ -1,4 +1,4 @@
- {
+{
   "name": "my-portfolio",
   "version": "0.0.0",
   "private": true,
@@ -11,7 +11,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
     "aos": "^2.3.4",
-    "tailwindcss": "^4.1.4",
+      "tailwindcss": "^4.1.4",
     "vue": "^3.5.13",
     "vue3-carousel": "^0.15.1"
   },
